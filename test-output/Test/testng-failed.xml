@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Test]" parallel="tests">
+  <test name="TestChrome(failed)" parallel="tests">
+    <classes>
+      <class name="parallel.test.FireFoxTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- parallel.test.FireFoxTest -->
+      <class name="parallel.test.ChromeTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- parallel.test.ChromeTest -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Test] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [MainSuite]" parallel="tests">
+  <test name="AboutUsTest(failed)" parallel="tests">
+    <classes>
+      <class name="parallel.manyinstances.test.HomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.HomePageTest -->
+      <class name="parallel.manyinstances.test.AboutUsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="isPlayButtonDisplayed"/>
+          <include name="isMenuPresent"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.AboutUsTest -->
+    </classes>
+  </test> <!-- AboutUsTest(failed) -->
+  <test name="FireFoxTest(failed)" parallel="tests">
+    <classes>
+      <class name="parallel.manyinstances.test.HomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="isMenuPresent"/>
+          <include name="isVideoDisplayed"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.HomePageTest -->
+      <class name="parallel.manyinstances.test.AboutUsTest">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.AboutUsTest -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->

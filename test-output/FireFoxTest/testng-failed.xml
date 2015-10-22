@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [FireFoxTest]" parallel="tests">
+  <test name="HomePageTest(failed)" parallel="tests">
+    <classes>
+      <class name="parallel.manyinstances.test.HomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.HomePageTest -->
+      <class name="parallel.manyinstances.test.AboutUsTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Step1"/>
+        </methods>
+      </class> <!-- parallel.manyinstances.test.AboutUsTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [FireFoxTest] -->
