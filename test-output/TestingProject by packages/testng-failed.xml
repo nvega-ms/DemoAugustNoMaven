@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestingProject by packages]">
+  <test name="appium.android.test(failed)">
+    <classes>
+      <class name="appium.android.test.MenuPageTest">
+        <methods>
+          <include name="goBackToMenu"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="isMenuPageComplete"/>
+        </methods>
+      </class> <!-- appium.android.test.MenuPageTest -->
+    </classes>
+  </test> <!-- appium.android.test(failed) -->
+</suite> <!-- Failed suite [TestingProject by packages] -->

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AugustTestDemo" duration-ms="262505" started-at="2015-10-22T21:40:36Z" finished-at="2015-10-22T21:44:58Z">
+    <groups>
+    </groups>
+    <test name="Registration - Happy path" duration-ms="262505" started-at="2015-10-22T21:40:36Z" finished-at="2015-10-22T21:44:58Z">
+      <class name="august.smartLock.tests.RegistrationProcessTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeTest" is-config="true" duration-ms="12684" started-at="2015-10-22T18:40:36Z" finished-at="2015-10-22T18:40:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.august.luna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[.ui.startup.LandingPage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4.2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4d00bfd7479f80c9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[August.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2611" started-at="2015-10-22T18:40:49Z" finished-at="2015-10-22T18:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="28478" started-at="2015-10-22T18:40:52Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcde123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2771" started-at="2015-10-22T18:41:20Z" finished-at="2015-10-22T18:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="29553" started-at="2015-10-22T18:41:23Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2869" started-at="2015-10-22T18:41:53Z" finished-at="2015-10-22T18:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="27552" started-at="2015-10-22T18:41:56Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2687" started-at="2015-10-22T18:42:23Z" finished-at="2015-10-22T18:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="28186" started-at="2015-10-22T18:42:26Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcde12222222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2755" started-at="2015-10-22T18:42:54Z" finished-at="2015-10-22T18:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="27876" started-at="2015-10-22T18:42:57Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!ksjksjdfkfjkd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2744" started-at="2015-10-22T18:43:25Z" finished-at="2015-10-22T18:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="enterPassword_InvalidPassword_ThrowError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_InvalidPassword_ThrowError" duration-ms="27110" started-at="2015-10-22T18:43:27Z" description="The user enters a invalid password" data-provider="InvalidPasswords" finished-at="2015-10-22T18:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AbvD!mnb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. (Original error: Soft keyboard not present, cannot hide keyboard) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 110 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'Desarrollo45', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.august.luna, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=4.4.2, deviceName=4d00bfd7479f80c9, platform=LINUX, appActivity=.ui.startup.LandingPage, desired={appPackage=com.august.luna, appActivity=.ui.startup.LandingPage, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, browserName=, platformName=Android, version=4.4.2, deviceName=4d00bfd7479f80c9}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 6c3b92ef-0b94-4dad-a0eb-810f8020fee4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (Original error: Soft keyboard not present, cannot hide keyboard) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 110 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'Desarrollo45', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.august.luna, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=4.4.2, deviceName=4d00bfd7479f80c9, platform=LINUX, appActivity=.ui.startup.LandingPage, desired={appPackage=com.august.luna, appActivity=.ui.startup.LandingPage, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, browserName=, platformName=Android, version=4.4.2, deviceName=4d00bfd7479f80c9}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 6c3b92ef-0b94-4dad-a0eb-810f8020fee4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.hideKeyboard(AppiumDriver.java:268)
+	at august.smartLock.screens.registration.ScreenObject.hideKeyboard(ScreenObject.java:114)
+	at august.smartLock.screens.registration.UserDetailsScreen.isErrorDisplayed(UserDetailsScreen.java:99)
+	at august.smartLock.tests.RegistrationProcessTest.enterPassword_InvalidPassword_ThrowError(RegistrationProcessTest.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_InvalidPassword_ThrowError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2751" started-at="2015-10-22T18:43:55Z" finished-at="2015-10-22T18:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_validPassword_NoError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_validPassword_NoError" duration-ms="28067" started-at="2015-10-22T18:43:57Z" description="The user enters a valid password" data-provider="ValidPasswords" finished-at="2015-10-22T18:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abcde12345!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_validPassword_NoError -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="beforeMethod" is-config="true" duration-ms="2747" started-at="2015-10-22T18:44:25Z" finished-at="2015-10-22T18:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="enterPassword_validPassword_NoError(java.lang.String)[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="enterPassword_validPassword_NoError" duration-ms="29346" started-at="2015-10-22T18:44:28Z" description="The user enters a valid password" data-provider="ValidPasswords" finished-at="2015-10-22T18:44:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123AbcV!2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_validPassword_NoError -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:august.smartLock.tests.RegistrationProcessTest@82d64]" name="tearDown" is-config="true" duration-ms="732" started-at="2015-10-22T18:44:57Z" finished-at="2015-10-22T18:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- august.smartLock.tests.RegistrationProcessTest -->
+    </test> <!-- Registration - Happy path -->
+  </suite> <!-- AugustTestDemo -->
+</testng-results>

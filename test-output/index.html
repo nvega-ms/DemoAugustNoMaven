@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AugustTestDemo">
+              <span class="suite-name border-failed">AugustTestDemo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AugustTestDemo">
+                    <span>C:\Users\nvega\workspace\TestingProject\ParameterizedTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AugustTestDemo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AugustTestDemo">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AugustTestDemo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AugustTestDemo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AugustTestDemo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AugustTestDemo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AugustTestDemo" class="hide-methods failed suite-AugustTestDemo"> (hide)</a> <!-- hide-methods failed suite-AugustTestDemo -->
+                      <a href="#" panel-name="suite-AugustTestDemo" class="show-methods failed suite-AugustTestDemo"> (show)</a> <!-- show-methods failed suite-AugustTestDemo -->
+                    </span>
+                    <div class="method-list-content failed suite-AugustTestDemo">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(AbvD!mnb)">enterPassword_InvalidPassword_ThrowError(AbvD!mnb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AugustTestDemo -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AugustTestDemo" class="hide-methods passed suite-AugustTestDemo"> (hide)</a> <!-- hide-methods passed suite-AugustTestDemo -->
+                      <a href="#" panel-name="suite-AugustTestDemo" class="show-methods passed suite-AugustTestDemo"> (show)</a> <!-- show-methods passed suite-AugustTestDemo -->
+                    </span>
+                    <div class="method-list-content passed suite-AugustTestDemo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(abcd)">enterPassword_InvalidPassword_ThrowError(abcd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(abcde12222222)">enterPassword_InvalidPassword_ThrowError(abcde12222222)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(abcde123)">enterPassword_InvalidPassword_ThrowError(abcde123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(!ksjksjdfkfjkd)">enterPassword_InvalidPassword_ThrowError(!ksjksjdfkfjkd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_InvalidPassword_ThrowError(123456.0)">enterPassword_InvalidPassword_ThrowError(123456.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_validPassword_NoError(Abcde12345!)">enterPassword_validPassword_NoError(Abcde12345!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AugustTestDemo" title="august.smartLock.tests.RegistrationProcessTest" hash-for-method="enterPassword_validPassword_NoError(123AbcV!2)">enterPassword_validPassword_NoError(123AbcV!2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AugustTestDemo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AugustTestDemo" class="panel AugustTestDemo">
+          <div class="suite-AugustTestDemo-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">august.smartLock.tests.RegistrationProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(AbvD!mnb)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(AbvD!mnb) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(AbvD!mnb)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. (Original error: Soft keyboard not present, cannot hide keyboard) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 110 milliseconds
+Build info: version: &apos;2.46.0&apos;, revision: &apos;87c69e2&apos;, time: &apos;2015-06-04 16:17:10&apos;
+System info: host: &apos;Desarrollo45&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.august.luna, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=4.4.2, deviceName=4d00bfd7479f80c9, platform=LINUX, appActivity=.ui.startup.LandingPage, desired={appPackage=com.august.luna, appActivity=.ui.startup.LandingPage, app=C:\Users\nvega\workspace\TestingProject\Resources\apkFolder\August.apk, browserName=, platformName=Android, version=4.4.2, deviceName=4d00bfd7479f80c9}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: 6c3b92ef-0b94-4dad-a0eb-810f8020fee4
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:185)
+	at io.appium.java_client.AppiumDriver.hideKeyboard(AppiumDriver.java:268)
+	at august.smartLock.screens.registration.ScreenObject.hideKeyboard(ScreenObject.java:114)
+	at august.smartLock.screens.registration.UserDetailsScreen.isErrorDisplayed(UserDetailsScreen.java:99)
+	at august.smartLock.tests.RegistrationProcessTest.enterPassword_InvalidPassword_ThrowError(RegistrationProcessTest.java:164)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AugustTestDemo-class-failed -->
+          <div class="suite-AugustTestDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">august.smartLock.tests.RegistrationProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(abcd)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(abcd) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(abcd)</span>
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(abcde12222222)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(abcde12222222) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(abcde12222222)</span>
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(abcde123)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(abcde123) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(abcde123)</span>
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(!ksjksjdfkfjkd)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(!ksjksjdfkfjkd) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(!ksjksjdfkfjkd)</span>
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_InvalidPassword_ThrowError(123456.0)">
+                  </a> <!-- enterPassword_InvalidPassword_ThrowError(123456.0) -->
+                  <span class="method-name">enterPassword_InvalidPassword_ThrowError</span>
+                  <span class="parameters">(123456.0)</span>
+                  <em>
+(The user enters a invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_validPassword_NoError(Abcde12345!)">
+                  </a> <!-- enterPassword_validPassword_NoError(Abcde12345!) -->
+                  <span class="method-name">enterPassword_validPassword_NoError</span>
+                  <span class="parameters">(Abcde12345!)</span>
+                  <em>
+(The user enters a valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword_validPassword_NoError(123AbcV!2)">
+                  </a> <!-- enterPassword_validPassword_NoError(123AbcV!2) -->
+                  <span class="method-name">enterPassword_validPassword_NoError</span>
+                  <span class="parameters">(123AbcV!2)</span>
+                  <em>
+(The user enters a valid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AugustTestDemo-class-passed -->
+        </div> <!-- panel AugustTestDemo -->
+        <div panel-name="test-xml-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nvega\workspace\TestingProject\ParameterizedTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AugustTestDemo&quot;&gt;
+  &lt;test name=&quot;Registration - Happy path&quot;&gt;
+    &lt;parameter name=&quot;folderPath&quot; value=&quot;\\Resources\\testData\\TestData.xlsx&quot;/&gt;
+    &lt;parameter name=&quot;firstName&quot; value=&quot;4d00bfd7479f80c9&quot;/&gt;
+    &lt;parameter name=&quot;sheetNameValidPasswords&quot; value=&quot;ValidPasswords&quot;/&gt;
+    &lt;parameter name=&quot;apkName&quot; value=&quot;August.apk&quot;/&gt;
+    &lt;parameter name=&quot;AugustAppActivityName&quot; value=&quot;.ui.startup.LandingPage&quot;/&gt;
+    &lt;parameter name=&quot;LastName&quot; value=&quot;4d00bfd7479f80c9&quot;/&gt;
+    &lt;parameter name=&quot;sheetNameInvalidPasswords&quot; value=&quot;InvalidPasswords&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;4.4.2&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;4d00bfd7479f80c9&quot;/&gt;
+    &lt;parameter name=&quot;AugustAppPackageName&quot; value=&quot;com.august.luna&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;august.smartLock.tests.RegistrationProcessTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration - Happy path --&gt;
+&lt;/suite&gt; &lt;!-- AugustTestDemo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AugustTestDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration - Happy path (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AugustTestDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AugustTestDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AugustTestDemo');
+function tableData_AugustTestDemo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(0, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(0, 3, 29553);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterPassword_validPassword_NoError')
+data.setCell(1, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(1, 3, 29346);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(2, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(2, 3, 28478);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(3, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(3, 3, 28186);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'enterPassword_validPassword_NoError')
+data.setCell(4, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(4, 3, 28067);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(5, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(5, 3, 27876);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(6, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(6, 3, 27552);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterPassword_InvalidPassword_ThrowError')
+data.setCell(7, 2, 'august.smartLock.tests.RegistrationProcessTest')
+data.setCell(7, 3, 27110);
+window.suiteTableData['AugustTestDemo']= { tableData: data, tableDiv: 'times-div-AugustTestDemo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-AugustTestDemo">
+              </div> <!-- times-div-AugustTestDemo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AugustTestDemo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AugustTestDemo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">august.smartLock.tests.RegistrationProcessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(com.august.luna, .ui.startup.LandingPage, 4.4.2, 4d00bfd7479f80c9, August.apk)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(abcde123)</span>
+                <span class="method-start">16188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">44667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(abcd)</span>
+                <span class="method-start">47438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">76992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(123456.0)</span>
+                <span class="method-start">79861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">107414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(abcde12222222)</span>
+                <span class="method-start">110101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">138288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(!ksjksjdfkfjkd)</span>
+                <span class="method-start">141043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">168920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterPassword_InvalidPassword_ThrowError(AbvD!mnb)</span>
+                <span class="method-start">171664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">198853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_validPassword_NoError(Abcde12345!)</span>
+                <span class="method-start">201604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">229672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">enterPassword_validPassword_NoError(123AbcV!2)</span>
+                <span class="method-start">232419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">261768 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

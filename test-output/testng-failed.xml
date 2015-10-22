@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AugustTestDemo]">
+  <parameter name="folderPath" value="\\Resources\\testData\\TestData.xlsx"/>
+  <parameter name="firstName" value="4d00bfd7479f80c9"/>
+  <parameter name="sheetNameValidPasswords" value="ValidPasswords"/>
+  <parameter name="apkName" value="August.apk"/>
+  <parameter name="AugustAppActivityName" value=".ui.startup.LandingPage"/>
+  <parameter name="LastName" value="4d00bfd7479f80c9"/>
+  <parameter name="sheetNameInvalidPasswords" value="InvalidPasswords"/>
+  <parameter name="version" value="4.4.2"/>
+  <parameter name="deviceName" value="4d00bfd7479f80c9"/>
+  <parameter name="AugustAppPackageName" value="com.august.luna"/>
+  <test name="Registration - Happy path(failed)">
+    <parameter name="folderPath" value="\\Resources\\testData\\TestData.xlsx"/>
+    <parameter name="firstName" value="4d00bfd7479f80c9"/>
+    <parameter name="sheetNameValidPasswords" value="ValidPasswords"/>
+    <parameter name="apkName" value="August.apk"/>
+    <parameter name="AugustAppActivityName" value=".ui.startup.LandingPage"/>
+    <parameter name="LastName" value="4d00bfd7479f80c9"/>
+    <parameter name="sheetNameInvalidPasswords" value="InvalidPasswords"/>
+    <parameter name="version" value="4.4.2"/>
+    <parameter name="deviceName" value="4d00bfd7479f80c9"/>
+    <parameter name="AugustAppPackageName" value="com.august.luna"/>
+    <classes>
+      <class name="august.smartLock.tests.RegistrationProcessTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="enterPassword_InvalidPassword_ThrowError" invocation-numbers="5"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- august.smartLock.tests.RegistrationProcessTest -->
+    </classes>
+  </test> <!-- Registration - Happy path(failed) -->
+</suite> <!-- Failed suite [AugustTestDemo] -->
